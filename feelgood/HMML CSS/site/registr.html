@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="header"> <img src="img/logo.png" alt="logo_img">
+            <h1 class="text_logo" align="center">Магазин часов "Час-Пик"</h1>
+            <p class="text_logo" align="center" size="14">Добро пожаловать!</p>
+            <ul class='menu'>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Регистрация</a></li>
+                <li><a href="catalog/watch.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <hr align="left" width="100%" color="Grey" />
+            <h2>Регистрация</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Личные данные</legend> Ваше имя:
+                    <input type="text" placeholder="Иван">
+                    <br>
+                    <br> Пароль:
+                    <input type="password" placeholder="123">
+                    <br>
+                    <br> Ваш пол: M
+                    <input type="radio" name='pol' checked> Ж
+                    <input type="radio" name='pol'>
+                    <br>
+                    <br> Ваш возраст:
+                    <select name="" id="" size="1">
+                        <!--атрибут multiple множественный выбор-->
+                        <option disabled>Ваш возраст</option>
+                        <option value="17">..-17</option>
+                        <option selected value="18">18-22</option>
+                        <option value="23">23-27</option>
+                        <option value="28">28-..</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Ваши увлечения:</legend>
+                    <br> Спорт
+                    <input type="checkbox">
+                    <br> IT
+                    <input type="checkbox" checked>
+                    <br> Музыка
+                    <input type="checkbox">
+                    <br> </fieldset>
+                <fieldset>
+                    <legend>О себе</legend>
+                    <textarea name="" id="" cols="50" rows="5" placeholder="Расскажите о себе..."></textarea>
+                    <br> Фото:
+                    <input type="file"> </fieldset>
+                <input type="submit" value="Отправить анкету">
+                <input type="reset" value="Очистить все поля"> </form>
+        </div>
+        <div class="footer">
+            <hr align="left" width="100%" color="black" />
+            <p class="footer_text"></p>
+        </div>
+    </div>
+</body>
+
+</html>
