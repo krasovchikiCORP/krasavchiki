@@ -325,7 +325,7 @@ img[class="foto"]:hover {
 }
 
 .content {
-    flex: 1 1 auto;
+    flex: 1 0 auto;
 }
 .catalog {
     text-align: center;
