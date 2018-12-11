@@ -20,16 +20,36 @@ body {
     background-color: antiquewhite;
 }
 
+.menu li {
+    list-style-type: none;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    float: left;
+}
+
 .content {
     background-color: burlywood;
     margin-left: 200px;
 }
 
-.menu {
+.content .block {
+    width: 30%;
+    height: 300px;
+    outline: 1px solid black;
+    float: left;
+    margin: 1% 1.5%;
+}
+
+.nav {
     width: 200px;
     height: 300px;
     background-color: saddlebrown;
     float: left;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .clr {
@@ -41,4 +61,23 @@ body {
     background-color: saddlebrown;
     width: 80%;
     margin: -202px auto 0;
+}
+
+@media screen and (min-width:1200px) {
+    .header {
+        background-color:bisque
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content .block {
+        width: 45%;
+        height: 300px;
+        outline: 1px solid black;
+        float: left;
+        margin: 2% 2.5%;
+    }
+    .menu li {
+        float: none;
+    }
 }
