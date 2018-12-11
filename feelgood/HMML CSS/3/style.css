@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    max-width: 80%;
+    min-width: 700px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.header {
+    min-height: 200px;
+    background-color: antiquewhite;
+}
+
+.content {
+    background-color: burlywood;
+    margin-left: 200px;
+}
+
+.menu {
+    width: 200px;
+    height: 300px;
+    background-color: saddlebrown;
+    float: left;
+}
+
+.clr {
+    height: 202px;
+}
+
+.footer {
+    height: 200px;
+    background-color: saddlebrown;
+    width: 80%;
+    margin: -202px auto 0;
+}
