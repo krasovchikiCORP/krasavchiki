@@ -1,9 +1,9 @@
-    /* ctrl+E увидеть какой селектор применен к тегу */
+    /* ctrl+E увидеть какой селектор применен к тегу 
 * {
     margin: 0;
     padding: 0;
 }
-
+*/
 html,
 body {
     height: 100%;
@@ -28,17 +28,20 @@ body {
 /*nth-child,(2) второй, (2n) чётный, (2n-1) нечётный*/
 
 .menu li {
-    width: 22%;
+    width: 20%;
     list-style-type: none;
     border: 1px solid grey;
     text-align: center;
     background-color: lightgrey;
     display: inline-block;
-    margin: -3px
+    margin: -3px;
+    transition: 0.7s;
 }
 
 .menu li:hover {
     background-color: grey;
+    color: black;
+    transition: 0.7s;
 }
 
 
@@ -52,21 +55,22 @@ body {
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     color: #484343;
-    line-height: 40px;
+    line-height: 50px;
     display: block;
+    transition: 0.7s;
 }
-
 .menu a:hover {
     color: black;
+    transition: 0.7s;
+
 }
 
 h2,
 h3 {
     color: black;
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 25px;
     font-weight: 400;
     background-color: lightgrey;
 }
@@ -76,6 +80,7 @@ h3 {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+    margin-top: 9px;
 }
 
 .long {
@@ -157,12 +162,7 @@ input[type="reset"] {
     text-transform: uppercase;
 }
 
-p:first-letter {
-    /*заглавные буквы*/
-    font-size: 25px;
-    color: #AA1D23;
-    font-family: "Times New Roman", serif;
-}
+
 
 .table {
     border: 1px solid grey;
@@ -225,7 +225,7 @@ hr {
 
 .header {
     flex: 0 0 auto;
-    height: 220px;
+    height: 360px;
     background-image: url(img/header_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,7 +233,7 @@ hr {
 }
 
 img[alt=logo_img] {
-    width: 150px;
+    width: 300px;
     float: left;
     margin-left: 10%;
     margin-top: 35px;
@@ -243,7 +243,7 @@ img[alt=logo_img] {
 .menu {
     overflow: hidden;
     text-align: right;
-    padding-top: 44px;
+    padding-top: 100px;
     padding-left: 0px;
     padding-bottom: 3px;
     padding-right: 3px;
@@ -251,14 +251,23 @@ img[alt=logo_img] {
 
 .text_logo {
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: 30px;
     padding-top: 10px;
-    padding-left: 110px;
+    padding-left: 150px;
     text-align: left;
-        color: lightgrey
+    color: lightgrey;
+    font-size: 30px;
 }
 
-
+h1:first-letter,
+h2:first-letter,
+h3:first-letter,
+p:first-letter {
+    /*заглавные буквы*/
+    font-size: 40px;
+    color: #AA1D23;
+    font-family: "Times New Roman", serif;
+}
 
 .footer {
     flex: 0 0 auto;
@@ -270,11 +279,10 @@ img[alt=logo_img] {
     text-align: right;
     margin-right: 15%;
     padding-top: 3%;
-    text-align: justify
 }
 
 .footer_text:after {
-    content: '"Все права защищены" ©';
+    content: 'Все права защищены ©';
 }
 
 img[class="foto"] {
@@ -293,6 +301,7 @@ img[class="foto"]:hover {
 
 .p1 {
     overflow: hidden;
+    margin-top: 5px;
 }
 .p2 {
     clear: both;
@@ -313,15 +322,22 @@ img[class="foto"]:hover {
     text-align: center;
     border: 1px solid grey;
     border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.7s;
+    margin-top: 20px;
 }
 
 .button:hover {
     background-color: gray;
     color: black;
+    transition: 0.7s;
+    
 }
 
 .button:active {
     background-color: #AA1D23;
+    transition: none;
+
 }
 
 .content {
@@ -334,13 +350,16 @@ img[class="foto"]:hover {
 .goods:hover {
     border: 2px solid  grey;
     border-radius: 0px 0px 14px 14px;
-    
+    transition: 0.7s;
+    transform: scale(1.1);
 }
 
 .goods {
     display: inline-block;
     text-align: center;
     border: 2px solid transparent;
+    transition: 0.7s;
+    margin: 5px 5px 5px 5px;
 }
 
 div {
