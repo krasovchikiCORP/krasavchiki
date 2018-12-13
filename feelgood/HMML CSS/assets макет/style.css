@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -127,7 +128,6 @@ img[alt="logo"] {
 .roll {
     width: 1366px;
     position: relative;
-    overflow:
 }
 
 .cont_menu {
@@ -325,6 +325,7 @@ table {
     text-align: center;
     border-spacing: 10px 10px;
 }
+    
 
 .trending td:hover {
     outline: 1px solid #6c6c6c;
@@ -466,10 +467,10 @@ img[alt="5_sm"]{
 .footer_1 .p_2 {
     margin: 0px 0px 0px 106px;
     color:  #212121;
-    font-size: 62px;    font-size: 62px;
-
+    font-size: 62px;
     font-weight: 100;
     line-height: 72px;
+
 }
 
 .footer_1 .p_3 {
@@ -488,16 +489,18 @@ img[alt="5_sm"]{
 }
 
 .footer_2_in {
-    position: absolute;
-    margin: 120px 0 0 99px;
-    
+    margin: 0 auto;
+    width: 1132px;
+    padding-top: 120px;
 }
 
 .footer_2_in table {
     margin: 0px;
     padding: 0px;
     text-align: left;
-    width: 135%;
+    width: 110%;
+    border-collapse: collapse;
+    
 }
 
 .footer_2_in .r_1 {
@@ -539,4 +542,39 @@ input[placeholder="your email address"] {
     line-height: 22px;
     text-align: left;
     padding-left: 22px;
+}
+
+input[type="image"] {
+    width: 31px; 
+    height: 29px;
+    border: none;
+    position: relative;
+    left: 1080px;
+    bottom: 41px;
+}
+
+.footer2_text {
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 15px;
+    float: left;
+}
+
+.footer2_text2 {
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 10px;
+    float: right;
+}
+
+img[alt='social']{
+    padding-top: 15px;
+    padding-left: 140px;
 }
