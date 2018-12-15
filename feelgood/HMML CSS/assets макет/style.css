@@ -55,6 +55,7 @@ img[alt="logo"] {
 .head_text {
     margin-top: 288px;
     margin-left: 98px;
+
 }
 
 .head_text .p1 {
@@ -107,10 +108,22 @@ img[alt="logo"] {
 }
 
 .navi {
-    position: absolute;
+
     margin-left: 623px;
     margin-top: 130px;
 }
+
+.navi a {
+    display: block;
+    float: left;
+    height: 40px;
+    width: 40px;
+    background: url(img/navi.png) no-repeat;
+}
+.navi a:hover {
+    background: url(img/active.png) no-repeat;
+}
+
 
 .active {
     position: absolute;
@@ -640,8 +653,5 @@ img[alt='social'] {
 .catalog_promo {
     margin-top: 150px;
     height: 683px;
-
-}
-.catalog_promo {
 
 }
