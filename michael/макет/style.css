@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    position: absolute;
+    left: 665px;
+    top: 50px;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-decoration: none;
+    display: block;
+    padding: 0 13px;
+}
+
+.menu li a:hover {
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+
+.search {
+    position: absolute;
+    top: 63px;
+    left: 1176px;
+}
+
+.text h3 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    position: absolute;
+    top: 373px;
+    left: 98px;
+}
+
+.text h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    position: absolute;
+    top: 408px;
+    left: 106px;
+}
+
+
+.text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    position: absolute;
+    top: 485px;
+    left: 98px;
+    width: 470px;
+}
+
+.order_us {
+    display: block;
+    text-decoration: none;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 22px;
+    position: absolute;
+    top: 555px;
+    left: 98px;
+}
+
+.order_us:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+.navi {
+    position: absolute;
+    bottom: 19px;
+    right: 623px;
+}
+
+.navi_active {
+    position: absolute;
+    top: 741px;
+    right: 663px;
+}
+
+.featured_new {
+    height: 609px;
+    position: relative;
+
+}
