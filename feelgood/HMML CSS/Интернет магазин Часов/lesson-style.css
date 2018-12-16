@@ -1,0 +1,44 @@
+/* ctrl+E увидеть какой селектор применен к тегу */
+
+h3 {
+    color: darkgrey;
+    background-color: beige;
+    border: 3px solid gray;
+    text-align: center;
+    text-transform: uppercase;
+    color: #707070;
+} 
+
+/* обращение к id (должно быть уникальным)*/
+#heading {
+    color: gray;
+
+} 
+
+/* обращение к class (может быть один класс у нескольких элементов*/
+.heading {
+    color: gray;
+}
+
+/* создание рамки у изображения */
+img[alt="foto"] {
+    border: 2px solid grey;
+    
+}
+
+.blu {
+    color: darkblue;
+    background-image: url(img/sosna.jpg);
+    background-repeat: no-repeat;
+    background-position: 30px 20px;
+    /*background: url(img/sosna.jpg) no-repeat 30px 20px*/
+}
+
+/* убрать точки маркировки */
+.list {
+    list-style-type: none
+}
+
+.link {
+    text-decoration: none /* убрать подчеркивание */
+}
