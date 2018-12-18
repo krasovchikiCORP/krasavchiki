@@ -57,6 +57,7 @@ body {
   background-color: grey;
   color: black;
   transition: 0.7s;
+  transform: scale(0.97);
 }
 .header .menu li {
   width: 20%;
@@ -76,11 +77,13 @@ body {
   color: #484343;
   line-height: 50px;
   display: block;
-  transition: 0.7s;
+  transition: 0.6s;
+  text-shadow: 2px 6px 20px black;
 }
 .header .menu li a:hover {
   color: black;
-  transition: 0.7s;
+  transition: 0.6s;
+  text-shadow: 0px 0px 2px black;
 }
 .content {
   flex: 1 0 auto;
@@ -197,19 +200,21 @@ input[type="reset"] {
   display: inline-block;
   text-align: center;
   border: 2px solid transparent;
-  transition: 0.7s;
+  transition: 0.6s;
   margin: 5px 5px 5px 5px;
   width: 15%;
 }
 .catalog .goods:hover {
-  border: 2px solid grey;
-  border-radius: 0px 0px 14px 14px;
-  transition: 0.7s;
-  transform: scale(1.1);
+  border: 2px solid darkgrey;
+  transition: 0.6s;
+  transform: scale(1.07);
+  box-shadow: 6px 7px 10px 0px darkgrey;
 }
 .catalog .goods:hover .button {
   background-color: gray;
   color: black;
+  text-shadow: 0px 0px 2px black;
+  transition: 0.6s;
 }
 .catalog .button,
 .catalog img {
@@ -217,7 +222,6 @@ input[type="reset"] {
   height: 100%;
 }
 .catalog a {
-  height: 200px;
   white-space: nowrap;
 }
 .table h1:first-letter,
@@ -255,13 +259,17 @@ img[class="foto"]:hover {
   text-align: center;
   border: 1px solid grey;
   border-radius: 10px 10px 10px 10px;
-  transition: 0.7s;
+  transition: 0.6s;
   margin-top: 20px;
+  text-shadow: 2px 7px 20px black;
 }
 .button:hover {
   background-color: gray;
   color: black;
-  transition: 0.7s;
+  transition: 0.5s;
+  text-shadow: 0px 0px 2px black;
+  transform: scale(1.07);
+  box-shadow: 6px 7px 10px 0px darkgrey;
 }
 .button:active {
   background-color: #AA1D23;
