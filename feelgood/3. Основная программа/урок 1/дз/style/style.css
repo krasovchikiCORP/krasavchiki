@@ -262,3 +262,64 @@ header .headImg {
   float: right;
   margin: 24px -12px 0 0;
 }
+.buy_now {
+  height: 656px;
+}
+.buy_now h2 {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  padding: 50px 0 30px 0;
+}
+.buy_now .product {
+  margin: 0 auto;
+  width: 990px;
+  height: 499px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.buy_now .product .standart {
+  width: 300px;
+  height: 306px;
+}
+.buy_now .product .premium {
+  width: 300px;
+  height: 404px;
+}
+.buy_now .product .lux {
+  width: 300px;
+  height: 499px;
+}
+.buy_now .product div {
+  background-color: #445162;
+  border-radius: 5px;
+}
+.buy_now .product div h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 51px;
+  text-align: center;
+}
+.buy_now .product div .price {
+  width: 296px;
+  height: 71px;
+  border: 2px solid #445162;
+  background-color: #ffffff;
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 71px;
+  text-align: center;
+}
+.buy_now .product div ol {
+  padding: 19px 0 0 20px;
+  list-style-position: inside;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
