@@ -86,7 +86,7 @@ header .headImg {
   text-align: center;
   padding: 50px 0 30px 0;
 }
-.dignity .dignity_1 {
+.dignity .dignity-1 {
   float: left;
   width: 600px;
   margin: -30px 0 0 50px;
@@ -96,13 +96,13 @@ header .headImg {
   font-weight: 400;
   line-height: 24px;
 }
-.dignity .dignity_1 li {
+.dignity .dignity-1 li {
   list-style-type: none;
   background: url(../image/2-layers.png) no-repeat 0px 20px;
   padding: 16px 0 0 41px;
   margin-top: 14px;
 }
-.dignity .dignity_2 {
+.dignity .dignity-2 {
   float: left;
   width: 600px;
   margin: -30px 0 0 50px;
@@ -114,7 +114,7 @@ header .headImg {
   float: right;
   margin-right: 37px;
 }
-.dignity .dignity_2 li {
+.dignity .dignity-2 li {
   list-style-type: none;
   background: url(../image/2-layers.png) no-repeat 0px 20px;
   padding: 16px 0 0 41px;
@@ -154,19 +154,19 @@ header .headImg {
   font-weight: 400;
   line-height: 24px;
 }
-.scrinshots .descriptions .descr_1 {
+.scrinshots .descriptions .descr-1 {
   float: left;
 }
-.scrinshots .descriptions .descr_2 {
+.scrinshots .descriptions .descr-2 {
   float: right;
   margin-right: -12px;
 }
-.scrinshots .descriptions .descr_3 {
+.scrinshots .descriptions .descr-3 {
   clear: both;
   float: left;
   margin-top: 30px;
 }
-.scrinshots .descriptions .descr_4 {
+.scrinshots .descriptions .descr-4 {
   float: right;
   margin: 30px -12px 0 0;
 }
@@ -205,19 +205,19 @@ header .headImg {
   font-weight: 400;
   line-height: 24px;
 }
-.reviews .comments .descr_1 {
+.reviews .comments .descr-1 {
   float: left;
 }
-.reviews .comments .descr_2 {
+.reviews .comments .descr-2 {
   float: right;
   margin-right: -12px;
 }
-.reviews .comments .descr_3 {
+.reviews .comments .descr-3 {
   clear: both;
   float: left;
   margin-top: 30px;
 }
-.reviews .comments .descr_4 {
+.reviews .comments .descr-4 {
   float: right;
   margin: 30px -12px 0 0;
 }
@@ -246,26 +246,26 @@ header .headImg {
   font-style: normal;
   margin-left: 118px;
 }
-.reviews .comments .comm_1 {
+.reviews .comments .comm-1 {
   float: left;
 }
-.reviews .comments .comm_2 {
+.reviews .comments .comm-2 {
   float: right;
   margin-right: -12px;
 }
-.reviews .comments .comm_3 {
+.reviews .comments .comm-3 {
   clear: both;
   float: left;
   margin-top: 24px;
 }
-.reviews .comments .comm_4 {
+.reviews .comments .comm-4 {
   float: right;
   margin: 24px -12px 0 0;
 }
-.buy_now {
+.buyNow {
   height: 656px;
 }
-.buy_now h2 {
+.buyNow h2 {
   color: #445161;
   font-size: 30px;
   font-weight: 400;
@@ -273,7 +273,7 @@ header .headImg {
   text-align: center;
   padding: 50px 0 30px 0;
 }
-.buy_now .product {
+.buyNow .product {
   margin: 0 auto;
   width: 990px;
   height: 499px;
@@ -281,30 +281,30 @@ header .headImg {
   justify-content: space-between;
   align-items: flex-end;
 }
-.buy_now .product .standart {
+.buyNow .product .standart {
   width: 300px;
   height: 306px;
 }
-.buy_now .product .premium {
+.buyNow .product .premium {
   width: 300px;
   height: 404px;
 }
-.buy_now .product .lux {
+.buyNow .product .lux {
   width: 300px;
   height: 499px;
 }
-.buy_now .product div {
+.buyNow .product div {
   background-color: #445162;
   border-radius: 5px;
 }
-.buy_now .product div h3 {
+.buyNow .product div h3 {
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
   line-height: 51px;
   text-align: center;
 }
-.buy_now .product div .price {
+.buyNow .product div .price {
   width: 296px;
   height: 71px;
   border: 2px solid #445162;
@@ -315,11 +315,136 @@ header .headImg {
   line-height: 71px;
   text-align: center;
 }
-.buy_now .product div ol {
+.buyNow .product div ol {
   padding: 19px 0 0 20px;
   list-style-position: inside;
   color: #ffffff;
   font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.buyNow .product div .buttonBuy {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  width: 260px;
+  background-color: #fff;
+  color: #445161;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.buyNow .product div .buttonBuy:hover {
+  transition: 0.5s;
+  transform: scale(0.95);
+}
+footer {
+  height: 509px;
+  background-color: #445162;
+}
+footer h2 {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  padding: 50px 0 30px 0;
+  color: #fff;
+}
+footer .contBlock {
+  margin: 0 auto;
+  width: 785px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contBlock form {
+  width: 500px;
+}
+footer .contBlock form #name {
+  width: 480px;
+  height: 40px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 10px 0 10px;
+}
+footer .contBlock form #email {
+  width: 480px;
+  height: 40px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 10px 0 10px;
+  margin-top: 21px;
+  text-transform: none;
+}
+footer .contBlock form #message {
+  width: 480px;
+  height: 40px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 10px 0 10px;
+  margin-top: 21px;
+  height: 160px;
+  resize: none;
+  font-family: 'Arial MT', sans-serif;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+footer .contBlock form #send {
+  margin: 0 auto;
+  margin-top: 18px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  width: 140px;
+  background-color: #fff;
+  color: #445161;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+footer .contBlock form #send:hover {
+  transition: 0.5s;
+  transform: scale(0.95);
+}
+footer .contBlock form input {
+  border: none;
+  border-radius: 5px;
+}
+footer .contBlock address {
+  width: 240px;
+  background-color: #fff;
+}
+::-webkit-input-placeholder {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+:-moz-placeholder {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+::-moz-placeholder {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+:-ms-input-placeholder {
+  color: #445162;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }

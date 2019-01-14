@@ -89,7 +89,7 @@ header {
         text-align: center;
         padding: 50px 0 30px 0;
     }
-    .dignity_1 {
+    .dignity-1 {
         float: left;
         width: 600px;
         margin: -30px 0 0 50px;
@@ -105,8 +105,8 @@ header {
             margin-top: 14px;
         }
     }
-    .dignity_2 {
-        .dignity_1;
+    .dignity-2 {
+        .dignity-1;
         float: right;
         margin-right: 37px;
     }
@@ -139,19 +139,19 @@ header {
                 line-height: 24px;
             }
         }
-        .descr_1 {
+        .descr-1 {
             float: left;
         }
-        .descr_2 {
+        .descr-2 {
             float: right;
             margin-right: -12px;
         }
-        .descr_3 {
+        .descr-3 {
             clear: both;
             float: left;
             margin-top: 30px;
         }
-        .descr_4 {
+        .descr-4 {
             float: right;
             margin: 30px -12px 0 0;
         }
@@ -191,26 +191,26 @@ header {
                 margin-left: 118px;
             }
         }
-        .comm_1 {
+        .comm-1 {
             float: left;
         }
-        .comm_2 {
+        .comm-2 {
             float: right;
             margin-right: -12px;
         }
-        .comm_3 {
+        .comm-3 {
             clear: both;
             float: left;
             margin-top: 24px;
         }
-        .comm_4 {
+        .comm-4 {
             float: right;
             margin: 24px -12px 0 0;
         }
     }
 }
 
-.buy_now {
+.buyNow {
     height: 656px;
     h2 {
         .dignity.h2;
@@ -263,6 +263,115 @@ header {
                 font-weight: 400;
                 line-height: 24px;
             }
+            .buttonBuy {
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                line-height: 40px;
+                width: 260px;
+                background-color: #fff;
+                color: #445161;
+                font-size: 18px;
+                font-weight: bold;
+                border-radius: 5px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .buttonBuy:hover {
+                transition: 0.5s;
+                transform: scale(0.95);
+            }
         }
     }
 }
+
+footer {
+    height: 509px;
+    background-color: #445162;
+    h2 {
+        .dignity.h2;
+        color: #fff;
+    }
+    .contBlock {
+        margin: 0 auto;
+        width: 785px;
+        display: flex;
+        justify-content: space-between;
+        form {
+            width: 500px;
+            #name {
+                width: 480px;
+                height: 40px;
+                color: #445162;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                padding: 0 10px 0 10px;
+            }
+            #email {
+                #name;
+                margin-top: 21px;
+                text-transform: none;
+            }
+            #message {
+                #name;
+                margin-top: 21px;
+                height: 160px;
+                resize: none;
+                font-family: 'Arial MT', sans-serif;
+                border-radius: 5px;
+                padding: 5px 10px 5px 10px;
+            }
+            #send {
+                margin: 0 auto;
+                margin-top: 18px;
+                display: block;
+                text-align: center;
+                line-height: 40px;
+                width: 140px;
+                background-color: #fff;
+                color: #445161;
+                font-size: 16px;
+                font-weight: bold;
+                transition: 0.5s;
+            }
+            #send:hover {
+                transition: 0.5s;
+                transform: scale(0.95);
+            }
+            input {
+                border: none;
+                border-radius: 5px;
+            }
+        }
+        address {
+            width: 240px;
+            background-color: #fff;
+        }
+    }
+}
+
+.placeholder(@rules) {
+    &::-webkit-input-placeholder {
+        @rules();
+    }
+    &:-moz-placeholder {
+        @rules();
+    }
+    &::-moz-placeholder {
+        @rules();
+    }
+    &:-ms-input-placeholder {
+        @rules();
+    }
+}
+
+.placeholder( {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+);
