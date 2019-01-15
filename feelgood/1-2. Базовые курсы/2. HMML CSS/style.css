@@ -7,22 +7,31 @@
 }
 .block1 {
   width: 40%;
-  margin: 10% 0% 10% 5%;
+  margin: 5% 0% 0% 5%;
   float: left;
   transition: 0.7s;
   outline: 1px solid darkgrey;
 }
 .block2 {
   width: 40%;
-  margin: 10% 0% 10% 5%;
+  margin: 5% 0% 0% 5%;
   float: left;
   transition: 0.7s;
   outline: 1px solid darkgrey;
-  margin: 10% 5% 10% 0%;
+  margin: 5% 5% 0% 0%;
   float: right;
 }
+.block3 {
+  clear: both;
+  width: 40%;
+  margin: 5% 0% 0% 5%;
+  float: left;
+  transition: 0.7s;
+  outline: 1px solid darkgrey;
+}
 .block1:hover,
-.block2:hover {
+.block2:hover,
+.block3:hover {
   transform: scale(1.1);
   transition: 0.7s;
   box-shadow: 1px 7px 20px 6px grey;
