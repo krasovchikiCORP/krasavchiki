@@ -20,7 +20,7 @@ header {
         float: left;
         margin: 50px 0 0 50px;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-        color: #ffffff;
+        color: #fff;
         h1 {
             font-size: 60px;
             font-weight: 400;
@@ -42,7 +42,7 @@ header {
     .headImg {
         width: 469px;
         height: 214px;
-        background-color: #ffffff;
+        background-color: #fff;
         margin: 50px 50px 0 0;
         float: right;
     }
@@ -137,6 +137,9 @@ header {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 24px;
+            }
+            a {
+                text-decoration: none;
             }
         }
         .descr-1 {
@@ -238,7 +241,7 @@ header {
             background-color: #445162;
             border-radius: 5px;
             h3 {
-                color: #ffffff;
+                color: #fff;
                 font-size: 24px;
                 font-weight: 400;
                 line-height: 51px;
@@ -248,7 +251,7 @@ header {
                 width: 296px;
                 height: 71px;
                 border: 2px solid #445162;
-                background-color: #ffffff;
+                background-color: #fff;
                 color: #445162;
                 font-size: 40px;
                 font-weight: 400;
@@ -258,7 +261,7 @@ header {
             ol {
                 padding: 19px 0 0 20px;
                 list-style-position: inside;
-                color: #ffffff;
+                color: #fff;
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 24px;
@@ -287,7 +290,7 @@ header {
 }
 
 footer {
-    height: 509px;
+    height: 535px;
     background-color: #445162;
     h2 {
         .dignity.h2;
@@ -347,8 +350,39 @@ footer {
         }
         address {
             width: 240px;
-            background-color: #fff;
+            li {
+                list-style-type: none;
+                height: 43px;
+                .contLink {
+                    font-style: normal;
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    margin-left: 5px;
+                
+                }
+                img {
+                    float: left;
+                }
+            }
+            img[alt='social'] {
+                margin-top: 22px;
+            }
         }
+    }
+    .copyright {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #fff;
+        color: #445162;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
     }
 }
 

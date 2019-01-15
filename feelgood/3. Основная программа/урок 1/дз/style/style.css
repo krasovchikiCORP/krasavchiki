@@ -19,7 +19,7 @@ header .headerText {
   float: left;
   margin: 50px 0 0 50px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-  color: #ffffff;
+  color: #fff;
 }
 header .headerText h1 {
   font-size: 60px;
@@ -41,7 +41,7 @@ header .headerText ul li {
 header .headImg {
   width: 469px;
   height: 214px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 50px 50px 0 0;
   float: right;
 }
@@ -154,6 +154,9 @@ header .headImg {
   font-weight: 400;
   line-height: 24px;
 }
+.scrinshots .descriptions .descr a {
+  text-decoration: none;
+}
 .scrinshots .descriptions .descr-1 {
   float: left;
 }
@@ -204,6 +207,9 @@ header .headImg {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+.reviews .comments .descr a {
+  text-decoration: none;
 }
 .reviews .comments .descr-1 {
   float: left;
@@ -298,7 +304,7 @@ header .headImg {
   border-radius: 5px;
 }
 .buyNow .product div h3 {
-  color: #ffffff;
+  color: #fff;
   font-size: 24px;
   font-weight: 400;
   line-height: 51px;
@@ -308,7 +314,7 @@ header .headImg {
   width: 296px;
   height: 71px;
   border: 2px solid #445162;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #445162;
   font-size: 40px;
   font-weight: 400;
@@ -318,7 +324,7 @@ header .headImg {
 .buyNow .product div ol {
   padding: 19px 0 0 20px;
   list-style-position: inside;
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -343,7 +349,7 @@ header .headImg {
   transform: scale(0.95);
 }
 footer {
-  height: 509px;
+  height: 535px;
   background-color: #445162;
 }
 footer h2 {
@@ -422,7 +428,37 @@ footer .contBlock form input {
 }
 footer .contBlock address {
   width: 240px;
+}
+footer .contBlock address li {
+  list-style-type: none;
+  height: 43px;
+}
+footer .contBlock address li .contLink {
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-left: 5px;
+}
+footer .contBlock address li img {
+  float: left;
+}
+footer .contBlock address img[alt='social'] {
+  margin-top: 22px;
+}
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #fff;
+  color: #445162;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
 }
 ::-webkit-input-placeholder {
   color: #445162;
