@@ -1,0 +1,59 @@
+Серия скринкастов об оформлении кода
+	https://www.youtube.com/watch?v=vkGRg0xbE48&list=PLYVl8v9p8yrE1Tb5rZwQ2x6fJhHiRp-LY
+
+Спецификация html
+	https://www.w3.org/TR/html52/
+	
+Article или section?
+	https://www.w3.org/TR/html53/sections.html#article-or-section
+
+Zeplin
+	https://zeplin.io/
+	
+Скачать Photoshop с торрента (не законно!)
+	https://rutracker.org/forum/viewtopic.php?t=5325405
+	
+Avocode (аналог adobe assets, zeplin)
+	https://avocode.com/
+Временная почта
+	https://temp-mail.org/
+	
+Веб аналог фотошопа
+	https://www.photopea.com/
+
+Редактор кода WebStorm
+	https://www.jetbrains.com/webstorm/
+
+Редактор кода PhpStorm
+	https://www.jetbrains.com/phpstorm/
+
+Веб аналог фотошопа
+	https://www.photopea.com/
+
+Adobe Assets
+	https://assets.adobe.com/
+
+Коала
+	http://koala-app.com/
+
+http://caniuse.com
+	Здесь можно проверить как поддерживают технологию браузеры
+
+http://lesscss.org
+	Препроцессор less, официальный сайт
+
+Я вконтакте
+	https://vk.com/igor_kubikov
+
+Группа, которая специально создана для моих студентов, проходящих курс по верстке
+https://vk.com/geekbrainshtmlcss , там вы можете пообщаться в чате, взять материалы уроков,
+а также там есть скринкасты, где я показываю как можно делать домашние задания (это пока относится только к базовому курсу html/css).
+
+SocialIco
+	https://ru.fonts2u.com/socialico.%D1%88%D1%80%D0%B8%D1%84%D1%82
+	
+Подбор цветов
+	https://colorscheme.ru/
+	
+Браузер srware iron (с движком webkit, как и safari под mac)
+	https://www.srware.net/en/software_srware_iron_download.php

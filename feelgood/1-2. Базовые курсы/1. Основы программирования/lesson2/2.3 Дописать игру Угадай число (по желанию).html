@@ -1,0 +1,43 @@
+<meta charset="utf-8">
+	<script>
+		var answer1 = parseInt(Math.random()* 100);
+		var answer2 = parseInt(Math.random()* 100);
+		var try1 = 1
+		var try2 = 1
+
+		while (true) {
+			var userEnter1 = +prompt("ИГРОК 1 Угадай число от 0 до 100, Попытка №" + try1 + "(для выхода из игры напиши '666'");
+			if  (userEnter1 == 666){
+				alert ('ИГРА ОКОНЧЕНА')
+				break;
+			} else if  (userEnter1 > answer1) {
+				alert('Твоё число больше загаданного')
+			} else if (userEnter1 < answer1) {
+				alert ('Твоё число меньше загаданного')
+			} else if (userEnter1 == answer1) {
+				alert ('ТЫ УГАДАЛ, красавчик!')
+				break
+			}else{
+				alert('Введи число');
+			}
+			try1++;
+			
+			var userEnter2 = +prompt("ИГРОК 2 Угадай число от 0 до 100, Попытка №" + try2 + "(для выхода из игры напиши '666'" );
+			if  (userEnter2 == 666){
+				alert ('ИГРА ОКОНЧЕНА')
+				break;
+			} else if  (userEnter2 > answer2) {
+				alert('Твоё число больше загаданного')
+			} else if (userEnter2 < answer2) {
+				alert ('Твоё число меньше загаданного')
+			} else if (userEnter2 == answer2) {
+				alert ('ТЫ УГАДАЛ, красавчик! ТЫ ПОБЕДИЛ!')
+				break;
+			}else{
+				alert('Введи число');
+			}
+			try2++;
+		}
+		
+	</script>
+

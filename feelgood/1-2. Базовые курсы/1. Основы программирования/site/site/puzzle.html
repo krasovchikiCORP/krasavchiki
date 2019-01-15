@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Личный сайт студента GeekBrains</title>
+	<link rel="stylesheet" href="style.css"> 
+	<script type="text/javascript">
+
+		var score = 0;
+
+		function checkAnswer( ansId, answers){
+			var userAnswer = document.getElementById(ansId).value;
+			userAnswer = userAnswer.toLowerCase();
+			for(var i = 0; i < answers.length; i++){
+				if(userAnswer == answers[i]){
+					score++;
+					break;
+				}
+			}
+		}
+		
+		function checkAnswers() {
+
+			checkAnswer("userAnswer1", ['рыбки','рыбка']);
+			checkAnswer("userAnswer2", ['6', 6]);
+			checkAnswer("userAnswer3", ['черепаха','черепахи', 'улитка', 'улитки']);
+			checkAnswer("userAnswer4", ['красная'])
+
+			alert("Вы отгадали " + score + " загадок");
+
+		}
+
+	</script>
+</head>
+<body>
+
+<div class="content">
+	<div class="header">
+		<a href="index.html">Главная</a>
+		<a href="#">Загадки</a>
+		<a href="guess.html">Угадайка</a>
+		<a href="pass.html">Генератор случайных паролей</a>
+	</div>
+
+<div class="contentWrap">
+    <div class="content">
+        <div class="center">
+
+			<h1>Игра в загадки</h1>
+
+			<div class="box">
+
+				<p>Кто живёт в аквариуме?</p>
+				<input type="text" id="userAnswer1">
+
+				<p>2 + 2 * 2 = ?</p>
+				<input type="text" id="userAnswer2">
+
+				<p>Какие существа могут прятаться в панцирь?</p>
+				<input type="text" id="userAnswer3">
+				
+				<p>******* гора в центре Морровинда</p>
+				<input type="text" id="userAnswer4">
+
+				<br>
+				<a href="#" onClick="checkAnswers();">Ответить</a>
+
+			</div>
+
+        </div>
+    </div>
+</div>
+
+	
+
+</div>
+<div class="footer">
+	Copyright &copy; V.Efron
+<div>
+
+
+</body>
+</html>
