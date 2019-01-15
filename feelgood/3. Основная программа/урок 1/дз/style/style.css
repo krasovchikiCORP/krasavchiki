@@ -245,6 +245,7 @@ header .headImg {
   line-height: 18px;
 }
 .reviews .comments .comm address {
+  text-decoration: none;
   color: #989898;
   font-size: 14px;
   font-weight: 400;
