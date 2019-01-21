@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <!--
+  этот скрипт нужен для браузеров IE версии 8 и ниже, потому что они не допускают стилизацию
+  неподдерживаемых элементов, то есть такие стили в них не сработают:
+  section, article, aside, footer, header, nav {
+    display:block;
+  }
+  -->
+
+  <!--[if lt IE 8]>
+  <script>
+    document.createElement("header" );
+    document.createElement("footer" );
+    document.createElement("section");
+    document.createElement("aside"  );
+    document.createElement("nav"    );
+    document.createElement("article");
+    document.createElement("time"   );
+  </script>
+  <![endif]-->
+</head>
+<body>
+
+</body>
+</html>

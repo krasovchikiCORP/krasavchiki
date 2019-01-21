@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid #ececec;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.headerInside {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    line-height: 50px;
+    width: 95px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+    padding-left: 73px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.logo span {
+    font-weight: 400;
+    color: #f38191;
+}
+
+.searchWrap {
+    width: 400px;
+    display: flex;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    margin-left: 37px;
+}
+
+.searchBrowse {
+    padding: 12px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.searchWrap input {
+    border: none;
+    padding: 0 4px;
+    flex-grow: 1;
+}
+
+.searchWrap button {
+    width: 36px;
+    border: none;
+    border-left: 1px solid #e6e6e6;
+    background: white;
+}
+
+.searchWrap button i {
+    color: #a4a4a4;
+}
+
+.headerCart {
+    margin-left: auto;
+    margin-right: 26px;
+}
+
+.accountBtn {
+    background-color: #f16d7f;
+    padding: 13px 19px;
+    border: none;
+}
+
+.topNav {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 170px;
+    box-sizing: border-box;
+}
+
+.topNav a {
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.topBanner {
+    height: 665px;
+    background: 
+        url(../images/topMan.png) no-repeat, 
+        #e8e8e8;
+    background-size: 600px;
+    background-position: 70% 0;
+}
+
+.topBannerContainer {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.topBannerSign {
+    height: 92px;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.topSign, .bottomSign {
+    color: #222222;
+    font-family: Lato, sans-serif;
+}
+
+.topSign {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.bottomSign {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 17px;
+}
+
+.bottomSign span {
+    color: #f16d7f;
+}

@@ -1,0 +1,11 @@
+Спецификация html 5.3 (нужный тег на странице ищите с помощью F3)
+	https://www.w3.org/TR/html53/
+	
+Информация по html 5
+	https://developer.mozilla.org/ru/docs/HTML/HTML5
+
+Здесь можно проверить регулярные выражени¤
+	https://regex101.com/
+	
+Информация о регулярных выражениях
+	http://www.pcre.ru/docs/perl/text/intro/

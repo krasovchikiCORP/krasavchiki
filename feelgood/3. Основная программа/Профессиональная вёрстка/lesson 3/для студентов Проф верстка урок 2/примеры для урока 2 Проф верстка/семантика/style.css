@@ -1,0 +1,140 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+/*
+иногда предлагается некоторым html5 элементам устанавливать блочность в явном виде,
+для поддержки старых браузеров
+*/
+section, article, aside, footer, header, nav {
+  display:block;
+}
+
+.container {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header.layoutHeader {
+  width: 100%;
+  min-height: 150px;
+  float: left;
+  background: #ccc;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+header.layoutHeader nav {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+
+header.layoutHeader nav ul li {
+  display: inline-block;
+  background: #d4e;
+  width: 70px;
+}
+
+.leftNav {
+  width: 22%;
+  float: left;
+  background: #aaa;
+  min-height: 600px;
+}
+
+.leftNav nav ul li {
+  list-style: none;
+}
+
+main {
+  width: 76%;
+  float: right;
+  min-height: 600px;
+  background: #ddd;
+}
+
+main > article {
+  background: #6C8CD5;
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+}
+
+.moreAboutMovie {
+  background: #81ff96;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.moreAboutMovie > section {
+  width: 30%;
+  float: left;
+  margin-right: 2%;
+  background: #70b9ff;
+}
+
+.moreAboutMovie > section > h2 {
+  font-size: 18px;
+}
+
+img[src="caribbean_sea.jpg"] {
+  width: 100%;
+}
+
+figure {
+  margin-bottom: 50px;
+}
+
+figcaption {
+  color: #344269;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+aside {
+  width: 30%;
+  min-height: 200px;
+  float: right;
+  background: #ffbe9b;
+}
+
+.movieDescription {
+  text-align: justify;
+}
+
+.postDate {
+  text-align: right;
+  display: block;
+  margin-bottom: 20px;
+}
+
+details summary {
+  outline: none;
+  cursor: pointer;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+address {
+  margin-bottom: 40px;
+}
+
+footer.layoutFooter {
+  width: 100%;
+  margin-top: 20px;
+  min-height: 100px;
+  background: #aaaaaa;
+  float: left;
+}
