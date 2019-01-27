@@ -1,0 +1,32 @@
+Официальный сайт sass
+	https://sass-lang.com/
+	
+Русскоязычный сайт по sass
+	https://sass-scss.ru/
+	
+Koala
+	http://koala-app.com/
+	
+Live Sass Compiler (расширение для Visual Studio Code)
+	https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
+	
+Scout-App
+	http://scout-app.io/
+	
+Препроцессор Less
+	http://lesscss.org/
+	
+Препроцессор Stylus
+	http://stylus-lang.com/
+	
+Nodejs
+	https://nodejs.org/en/
+	
+gulp
+	https://gulpjs.com/
+	
+gulp-sass
+	https://www.npmjs.com/package/gulp-sass
+	
+Шпаргалка по markdown
+	https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
